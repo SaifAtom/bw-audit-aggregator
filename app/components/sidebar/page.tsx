@@ -8,14 +8,6 @@ import { jwtDecode } from 'jwt-decode' // Use default import
 import { useAuth } from '@/app/context/authContext'
 import { useRouter } from 'next/navigation'
 
-// Define the user type with all fields
-interface User {
-  _id: string
-  username: string
-  email: string
-  telegramId: string
-  password: string // Note: Storing passwords is generally not recommended
-}
 
 const Sidebar = () => {
   const router = useRouter() // Initialize useRouter

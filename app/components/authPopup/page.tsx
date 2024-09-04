@@ -1,3 +1,4 @@
+'use client';
 import React, { useState } from 'react'
 import validator from 'validator'
 import { jwtDecode } from 'jwt-decode'

@@ -1,5 +1,4 @@
-import { AuthProvider } from "./context/authContext"
-import HomePage from "./homepage"
+import HomePage from "./homepage/page"
 export default function Home() {
   return (
       <HomePage/>

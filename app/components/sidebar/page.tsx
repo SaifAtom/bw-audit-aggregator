@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import AuthPopup from '../authPopup'
+import AuthPopup from '../authPopup/page'
 import { jwtDecode } from 'jwt-decode' // Use default import
 import { useAuth } from '@/app/context/authContext'
 import { useRouter } from 'next/navigation'

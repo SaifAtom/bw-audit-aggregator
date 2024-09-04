@@ -1,10 +1,10 @@
 'use client';
 
 import React, { useState } from 'react';
-import Sidebar from '../components/sidebar';
+import Sidebar from '../components/sidebar/page';
 import Image from 'next/image';
-import ProjectsPage from '../projectsPage';
-import AuthPopup from '../components/authPopup';
+import ProjectsPage from '../projectsPage/page';
+import AuthPopup from '../components/authPopup/page';
 import { useAuth } from '../context/authContext';
 import { jwtDecode } from 'jwt-decode';
 

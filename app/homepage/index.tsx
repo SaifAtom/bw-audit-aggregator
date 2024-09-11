@@ -34,7 +34,7 @@ function HomePage() {
   
 
   return (
-    <div className='min-h-screen bg-gradient-to-r from-[#181e2e] to-[#1f243c] pt-4'>
+    <div className='bg-gradient-to-r from-[#181e2e] to-[#1f243c] pt-4'>
       <Sidebar />
       <div className='flex flex-col text-white p-4 ml-[25%] mr-[10%]'>
         <div className='flex flex-row justify-between'>

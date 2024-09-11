@@ -62,7 +62,7 @@ const Sidebar = () => {
   }
   if (loading) {
     return (
-      <div className='min-h-screen bg-gradient-to-r from-[#181e2e] to-[#1f243c] p-4 text-white'></div>
+      <div className=' bg-gradient-to-r from-[#181e2e] to-[#1f243c] p-4 text-white'></div>
     ) 
   }
   return (

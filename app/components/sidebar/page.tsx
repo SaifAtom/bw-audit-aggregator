@@ -54,11 +54,7 @@ const Sidebar = () => {
   }
   if (loading) {
     return (
-<<<<<<< HEAD:app/components/sidebar/index.tsx
-      <div className=' bg-gradient-to-r from-[#181e2e] to-[#1f243c] p-4 text-white'></div>
-=======
       <div className='bg-gradient-to-r from-[#181e2e] to-[#1f243c] p-4 text-white'></div>
->>>>>>> 732a30a9ab34c973f9383879d4e255079bef3103:app/components/sidebar/page.tsx
     ) 
   }
   return (

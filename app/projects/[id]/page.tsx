@@ -1,4 +1,4 @@
-import Sidebar from '@/app/components/sidebar'
+import Sidebar from '@/app/components/sidebar/page'
 import { MongoClient, ObjectId } from 'mongodb'
 import Image from 'next/image'
 import Link from 'next/link'

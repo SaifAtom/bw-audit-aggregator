@@ -1,7 +1,7 @@
 'use client'
 import { useAuth } from '@/app/context/authContext'
 import { useState, useEffect } from 'react'
-import Sidebar from '../components/sidebar'
+import Sidebar from '../components/sidebar/page'
 import { toast, ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 

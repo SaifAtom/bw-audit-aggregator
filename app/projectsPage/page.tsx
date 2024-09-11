@@ -1,5 +1,6 @@
+'use client';
 import { useEffect, useState } from 'react';
-import ProjectCard from '../components/projectCard';
+import ProjectCard from '../components/projectCard/page';
 import { Project } from '../types/project'; 
 
 const ProjectsPage = ({ filter }: { filter: string }) => {
